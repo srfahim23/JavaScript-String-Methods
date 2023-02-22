@@ -51,3 +51,12 @@ charecters require two code units to be represented. Due to this, the length pro
     let len = string.length;
 
     console.log(len);
+
+
+Output:
+
+    10
+
+In the above example, we have defined a string named string1. We have then used the length property to find out the number of charecters in string1.
+
+Since 'Javascript' contains 10 charecters, string1.length returns 10
