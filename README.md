@@ -60,3 +60,23 @@ Output:
 In the above example, we have defined a string named string1. We have then used the length property to find out the number of charecters in string1.
 
 Since 'Javascript' contains 10 charecters, string1.length returns 10
+
+
+# Example2 : length Property is Read Only
+The String.length property is a read-only property. There will be no effecet if we try to change it manually . For 
+Example
+
+    let string2 = "Programming";
+    // assigning a value to string's length property
+    string2.length = 5;
+
+    // doesn't change the original string 
+    console.log(string2): // Programming
+
+    // returns the length of 'Programming'
+    console.log(string2.length); // 11
+
+Output:
+
+    Programming
+    11
