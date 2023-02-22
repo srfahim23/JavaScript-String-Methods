@@ -80,3 +80,10 @@ Output:
 
     Programming
     11
+
+Here we have assigned a new value to string2.length. 
+Since the String.length property is read-only, assigning 
+value to it doesn't change the original array.
+
+string2.length returns 11 which is the length of 
+'Programming'.
