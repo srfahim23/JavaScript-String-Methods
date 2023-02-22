@@ -32,3 +32,13 @@ The syntax of the length property is:
 Here, str is a string
 
 
+# length Parameters
+The length property does not take any parameters.
+
+# Length Return Value
+Returns the number charecters in a string.
+
+Note: The string.length property returns the code 
+units in the UTF-16 string format. Some rare string
+charecters require two code units to be represented. Due to this, the length property might not always return the number of charecters.
+
