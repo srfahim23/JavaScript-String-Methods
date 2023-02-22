@@ -22,3 +22,13 @@ Example
 
     //output:
     // 17
+
+
+# length Syntax
+The syntax of the length property is:
+
+    str.length
+
+Here, str is a string
+
+
