@@ -42,3 +42,12 @@ Note: The string.length property returns the code
 units in the UTF-16 string format. Some rare string
 charecters require two code units to be represented. Due to this, the length property might not always return the number of charecters.
 
+# Example 1: Using length Property
+
+    // defing string
+    let string1 = "JavaScript";
+
+    // returns the number of charecters in 'JavaScript'
+    let len = string.length;
+
+    console.log(len);
